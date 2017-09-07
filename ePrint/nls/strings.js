@@ -1,6 +1,6 @@
 define({
   root: ({
-    _widgetLabel: "Print",
+    _widgetLabel: "E-Print",
     title: "Map Title",
     format: "Format",
     layout: "Layout",
@@ -29,7 +29,7 @@ define({
     mapOnlyOptions: "MAP_ONLY size",
     width: "Width (px)",
     height: "Height (px)",
-    print: "Print",
+    print: "EPrint",
     clearList: "Clear Prints",
     creatingPrint: "Creating Print",
     printError: "Error, try again"

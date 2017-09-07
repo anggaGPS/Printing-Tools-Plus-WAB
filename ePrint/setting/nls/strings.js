@@ -1,6 +1,7 @@
 define({
   root: ({
     serviceURL: "Service URL",
+	defaultAttURL: "Service URL Data",
     defaultTitle: "Default Title",
     defaultAuthor: "Default Author",
     defaultCopyright: "Default Copyright",

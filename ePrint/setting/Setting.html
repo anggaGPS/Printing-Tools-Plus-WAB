@@ -10,6 +10,8 @@
             data-dojo-attach-point="serviceURL"
             required="true" data-dojo-props="style:{width:'100%'}"/>
           </td>
+		  
+		 
 
           <td><div data-dojo-attach-point="checkProcessDiv" style="display:none">
             &nbsp;&nbsp;<img data-dojo-attach-point="checkImg" width="20px" height="20px" src=""></div>
@@ -20,6 +22,15 @@
           <td class="second" colspan="2">
             <input type="text" data-dojo-type="dijit/form/ValidationTextBox"
             data-dojo-attach-point="defaultTitle" data-dojo-attach-event="Blur:_onTitleBlur" placeHolder="ArcGIS WebMap"
+            data-dojo-props='style:{width:"100%"}'/>
+          </td>
+        </tr>
+		
+		<tr>
+          <td class="first">${nls.defaultAttURL}</td>
+          <td class="second" colspan="2">
+            <input type="text" data-dojo-type="dijit/form/ValidationTextBox"
+            data-dojo-attach-point="defaultAttURL" data-dojo-attach-event="Blur:_onURLBlur" placeHolder=""
             data-dojo-props='style:{width:"100%"}'/>
           </td>
         </tr>

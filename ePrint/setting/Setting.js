@@ -179,6 +179,10 @@ define([
         if (config.defaultCopyright) {
           this.defaultCopyright.set('value', utils.stripHTML(config.defaultCopyright));
         }
+		
+		if (config.defaultAttURL) {
+          this.defaultAttURL.set('value', utils.stripHTML(config.defaultAttURL));
+        }
       },
 
       _onTitleBlur: function() {
@@ -191,6 +195,10 @@ define([
 
       _onCopyrightBlur: function() {
         this.defaultCopyright.set('value', utils.stripHTML(this.defaultCopyright.get('value')));
+      },
+	  
+	   _onURLBlur: function() {
+        this.defaultAttURL.set('value', utils.stripHTML(this.defaultAttURL.get('value')));
       },
 
       getConfig: function() {
@@ -208,6 +216,7 @@ define([
         }
         this.config.serviceURL = this.serviceURL.get('value');
         this.config.defaultTitle = utils.stripHTML(this.defaultTitle.get('value'));
+		 this.config.defaultAttURL = utils.stripHTML(this.defaultAttURL.get('value'));
         this.config.defaultAuthor = utils.stripHTML(this.defaultAuthor.get('value'));
         this.config.defaultCopyright = utils.stripHTML(this.defaultCopyright.get('value'));
         this.config.defaultFormat = this.defaultFormat.get('value');
