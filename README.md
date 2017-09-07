@@ -3,7 +3,11 @@ This widget is enhancement from Printing Widget which printing the attributes an
 
 
 
-![App](https://raw.github.com/Esri/map-gallery-template-js/master/Resources/item.png)
+![App](https://github.com/anggaGPS/Printing-Tools-Plus-WAB/blob/master/print2.JPG?raw=true)
+
+
+
+
 
 ## Features
 this widget will print the attribute and the map in one layout with event 'Click' on demand.
@@ -27,6 +31,6 @@ this widget will print the attribute and the map in one layout with event 'Click
 5. To deploy this application, download the widget .
 
 6. Put in the web app builder folder `..\WebAppBuilderForArcGIS\client\stemapp\widgets`
-
+![App](https://github.com/anggaGPS/Printing-Tools-Plus-WAB/blob/master/print1.JPG?raw=true)
 
 
